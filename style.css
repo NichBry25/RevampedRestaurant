@@ -1,0 +1,296 @@
+/*This makes the whole body have a gradient background.*/
+body{
+    background-image: linear-gradient(to bottom right, #f2ede0, #d9b99b);
+}
+
+/*This is the the header's CSS, including the image and restaurant name.*/
+.image-container1{
+    background-image: url("9C797EA9-798C-4DA5-8A80-F4F0CEA9A2E6_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    margin: 0;    
+    padding: 0;    
+    width: 100%;
+    color: #380000;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: 2px 2px 2px black;
+}
+
+/*This is the address and contacts you see under the restaurant name.*/
+.address{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -100px;
+    color: #380000;
+}
+
+/*This CSS is always used whenever a text is spanning the entire row.*/
+.text-container1{
+    margin-top: 0px;
+    height: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom right, #f2ede0, #d9b99b);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*This is the same, but with smaller font.*/
+.text-container2{
+    margin-top: -50px;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom right, #f2ede0, #d9b99b);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*This is used to put a text on the left side of the page.*/
+.left{
+    width: 25%;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*This is used to put a text on the right side of the page.*/
+.right{
+    margin-top: 130px;
+    width: 25%;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*This is a box for texts inside of a column.*/
+.box{
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    text-shadow: 2px 2px 4px #4b3b42;
+    display: flex;
+}
+
+/*These are the 3 columns used for the cuisine display.*/
+.column1 {
+    float: left;
+    width: 33.33%;
+    background-image: url("6622D42A-12B6-49D2-9569-D6F5197E898E_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.column2 {
+    float: left;
+    width: 33.33%;
+    background-image: url("36F26A09-28A8-4565-8AAF-82158AD0E28F_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.column3 {
+    float: left;
+    width: 33.33%;
+    background-image: url("481DD7CD-1358-4274-8E58-49A4F77248FD_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*This row is used outside of the columns. */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*This is used for text that spans the entire width of the page.*/
+/*However, this one doesn't have a predetermined font size.*/
+.rowtext{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*This entire CSS code is used to display the images of food in the menu.*/
+.columnleft1{
+    float: left;
+    width: 50%;
+    background-image: url("C3D22BCB-9785-444F-93D2-829323410256_4_5005_c.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+.columnright1{
+    float: right;
+    width: 50%;
+    background-image: url("83FE7DB3-95B9-4977-84B8-BF67AB6DA7B2_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+.columnleft2{
+    float: left;
+    width: 50%;
+    background-image: url("34D4096A-AE36-4E6F-8415-EB697490A28C_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+.columnright2{
+    float: right;
+    width: 50%;
+    background-image: url("BCA4DE4C-8006-408F-A18E-C5926AFF72E6_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+.columnleft3{
+    float: left;
+    width: 50%;
+    background-image: url("2C2157D6-7B1C-4032-A3FA-A740B50194F1_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+.columnright3{
+    float: right;
+    width: 50%;
+    background-image: url("F26BB5EA-A93A-4533-8E34-C714C25B825C_1_201_a.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+
+/*This part of the code is used on the signatures section.*/
+/*This is used to put the text next to the images.*/
+.columnlefttext{
+    float: left;
+    width: 50%;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.columnrighttext{
+    float: right;
+    width: 50%;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.columnleftsignature{
+    float: left;
+    width: 50%;
+    background-image: url("78F4B096-493A-4DBD-AB8A-BD48A328528C_4_5005_c.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.columnrightsignature{
+    float: left;
+    width: 50%;
+    background-image: url("D194529E-FD90-4C9C-9DF2-A97717E6F877_4_5005_c.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
